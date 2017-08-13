@@ -1,0 +1,104 @@
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.exe.config
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.exe
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.pdb
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.csprojResolveAssemblyReference.cache
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.Properties.Resources.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPrincipal.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.csproj.GenerateResource.Cache
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.exe
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.pdb
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormAluno.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.dll
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.SqlServer.dll
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.xml
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.SqlServer.xml
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormInstituicaoEnsino.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormFavorecido.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormConfiguracaoEmail.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContrato.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAReceber.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormRecebimento.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAPagar.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.exe.config
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.exe
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\FinanceiroBus.pdb
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.dll
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.SqlServer.dll
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.xml
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\bin\Debug\EntityFramework.SqlServer.xml
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.csprojResolveAssemblyReference.cache
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.Properties.Resources.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormAluno.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormConfiguracaoEmail.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAPagar.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAReceber.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContrato.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormFavorecido.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormInstituicaoEnsino.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPrincipal.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormRecebimento.resources
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.csproj.GenerateResource.Cache
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.exe
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.pdb
+F:\Nova pasta\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPagamento.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPagamento.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportAluno.resources
+D:\git\csharp\FinanceiroBus\FinanceiroBus\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\RdlCompile.cache
+D:\git\csharp\FinanceiroBus\FinanceiroBus\obj\Debug\RdlCompile.compiled
+F:\Nova pasta\FinanceiroBus\bin\Debug\FinanceiroBus.exe.config
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.exe
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.pdb
+F:\Nova pasta\FinanceiroBus\bin\Debug\FinanceiroBus.exe
+F:\Nova pasta\FinanceiroBus\bin\Debug\FinanceiroBus.pdb
+F:\Nova pasta\FinanceiroBus\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Nova pasta\FinanceiroBus\bin\Debug\EntityFramework.xml
+F:\Nova pasta\FinanceiroBus\bin\Debug\EntityFramework.SqlServer.xml
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.csprojResolveAssemblyReference.cache
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.Properties.Resources.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormAluno.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormConfiguracaoEmail.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAPagar.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAReceber.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContrato.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormFavorecido.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormInstituicaoEnsino.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPagamento.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPrincipal.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormRecebimento.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportAluno.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.csproj.GenerateResource.Cache
+F:\Nova pasta\FinanceiroBus\obj\Debug\RdlCompile.cache
+F:\Nova pasta\FinanceiroBus\obj\Debug\RdlCompile.compiled
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportContrato.resources
+F:\Nova pasta\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportContaAReceber.resources
+D:\git\csharp\FinanceiroBus\bin\Debug\FinanceiroBus.exe.config
+D:\git\csharp\FinanceiroBus\bin\Debug\FinanceiroBus.exe
+D:\git\csharp\FinanceiroBus\bin\Debug\FinanceiroBus.pdb
+D:\git\csharp\FinanceiroBus\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.Properties.Resources.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormAluno.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormConfiguracaoEmail.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAPagar.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContaAReceber.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormContrato.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormFavorecido.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormInstituicaoEnsino.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPagamento.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormPrincipal.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormRecebimento.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportContaAPagar.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportContaAReceber.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportAluno.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportContrato.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportPagamento.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportRecebimento.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.csproj.GenerateResource.Cache
+D:\git\csharp\FinanceiroBus\obj\Debug\RdlCompile.cache
+D:\git\csharp\FinanceiroBus\obj\Debug\RdlCompile.compiled
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.exe
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.pdb
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.csprojResolveAssemblyReference.cache
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.Report.FormReportTransacao.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormCalculadoraMensalidade.resources
+D:\git\csharp\FinanceiroBus\obj\Debug\FinanceiroBus.View.FormLogin.resources

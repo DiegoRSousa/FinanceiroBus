@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72248835-EFB8-4FCE-9725-C61738524C11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinanceiroBus</RootNamespace>
+    <AssemblyName>FinanceiroBus</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Context\EFContext.cs" />
+    <Compile Include="Controller\AlunoController.cs" />
+    <Compile Include="Controller\CalculadoraMensalidadeController.cs" />
+    <Compile Include="Controller\ConfiguracaoController.cs" />
+    <Compile Include="Controller\ContaAPagarController.cs" />
+    <Compile Include="Controller\ContaAReceberController.cs" />
+    <Compile Include="Controller\ContratoController.cs" />
+    <Compile Include="Controller\EmailController.cs" />
+    <Compile Include="Controller\FavorecidoController.cs" />
+    <Compile Include="Controller\InstituicaoEnsinoController.cs" />
+    <Compile Include="Controller\PagamentoController.cs" />
+    <Compile Include="Controller\RecebimentoController.cs" />
+    <Compile Include="Controller\Report\ContaAPagarController.cs" />
+    <Compile Include="Controller\Report\ContaAReceberController.cs" />
+    <Compile Include="Controller\Report\ContratoController.cs" />
+    <Compile Include="Controller\Report\PagamentoController.cs" />
+    <Compile Include="Controller\Report\RecebimentoController.cs" />
+    <Compile Include="Controller\Report\TransacaoController.cs" />
+    <Compile Include="DAO\AlunoDAO.cs" />
+    <Compile Include="DAO\ConfiguracaoDAO.cs" />
+    <Compile Include="DAO\ContaAPagarDAO.cs" />
+    <Compile Include="DAO\ContaAReceberDAO.cs" />
+    <Compile Include="DAO\ContratoDAO.cs" />
+    <Compile Include="DAO\FavorecidoDAO.cs" />
+    <Compile Include="DAO\InstituicaoEnsinoDAO.cs" />
+    <Compile Include="DAO\PagamentoDAO.cs" />
+    <Compile Include="DAO\RecebimentoDAO.cs" />
+    <Compile Include="DAO\Report\TransacaoDAO.cs" />
+    <Compile Include="DAO\Report\ContaAPagarDAO.cs" />
+    <Compile Include="DAO\Report\ContaAReceberDAO.cs" />
+    <Compile Include="DAO\Report\ContratoDAO.cs" />
+    <Compile Include="DAO\Report\PagamentoDAO.cs" />
+    <Compile Include="DAO\Report\RecebimentoDAO.cs" />
+    <Compile Include="Mapping\AlunoMap.cs" />
+    <Compile Include="Mapping\ConfiguracaoMap.cs" />
+    <Compile Include="Mapping\ContaAPagarMap.cs" />
+    <Compile Include="Mapping\ContaAReceberMap.cs" />
+    <Compile Include="Mapping\ContratoMap.cs" />
+    <Compile Include="Mapping\FavorecidoMap.cs" />
+    <Compile Include="Mapping\InstituicaoEnsinoMap.cs" />
+    <Compile Include="Mapping\PagamentoMap.cs" />
+    <Compile Include="Mapping\RecebimentoMap.cs" />
+    <Compile Include="Model\Aluno.cs" />
+    <Compile Include="Model\CalculadoraMensalidade.cs" />
+    <Compile Include="Model\CalculaMensalidade.cs" />
+    <Compile Include="Model\Configuracao.cs" />
+    <Compile Include="Model\ContaAPagar.cs" />
+    <Compile Include="Model\ContaAReceber.cs" />
+    <Compile Include="Model\Contrato.cs" />
+    <Compile Include="Model\Favorecido.cs" />
+    <Compile Include="Model\InstituicaoEnsino.cs" />
+    <Compile Include="Model\Pagamento.cs" />
+    <Compile Include="Model\PlanoPagamento.cs" />
+    <Compile Include="Model\Recebimento.cs" />
+    <Compile Include="Model\Report\Transacao.cs" />
+    <Compile Include="Model\Report\ContaAPagar.cs" />
+    <Compile Include="Model\Report\ContaAReceber.cs" />
+    <Compile Include="Model\Report\Contrato.cs" />
+    <Compile Include="Model\Report\Pagamento.cs" />
+    <Compile Include="Model\Report\Recebimento.cs" />
+    <Compile Include="Model\SituacaoFinanceira.cs" />
+    <Compile Include="Model\Status.cs" />
+    <Compile Include="Model\TipoFavorecido.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ContaAPagarService.cs" />
+    <Compile Include="Service\ContaAReceberService.cs" />
+    <Compile Include="Service\ContratoService.cs" />
+    <Compile Include="Service\EmailService.cs" />
+    <Compile Include="View\FormAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormAluno.Designer.cs">
+      <DependentUpon>FormAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormCalculadoraMensalidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormCalculadoraMensalidade.Designer.cs">
+      <DependentUpon>FormCalculadoraMensalidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormConfiguracaoEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormConfiguracaoEmail.Designer.cs">
+      <DependentUpon>FormConfiguracaoEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormContaAPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormContaAPagar.Designer.cs">
+      <DependentUpon>FormContaAPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormContaAReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormContaAReceber.Designer.cs">
+      <DependentUpon>FormContaAReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormContrato.Designer.cs">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormFavorecido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormFavorecido.Designer.cs">
+      <DependentUpon>FormFavorecido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormInstituicaoEnsino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormInstituicaoEnsino.Designer.cs">
+      <DependentUpon>FormInstituicaoEnsino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormPagamento.Designer.cs">
+      <DependentUpon>FormPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormRecebimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormRecebimento.Designer.cs">
+      <DependentUpon>FormRecebimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportContaAPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportContaAPagar.Designer.cs">
+      <DependentUpon>FormReportContaAPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportContaAReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportContaAReceber.Designer.cs">
+      <DependentUpon>FormReportContaAReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportAluno.Designer.cs">
+      <DependentUpon>FormReportAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportContrato.Designer.cs">
+      <DependentUpon>FormReportContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportPagamento.Designer.cs">
+      <DependentUpon>FormReportPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportRecebimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportRecebimento.Designer.cs">
+      <DependentUpon>FormReportRecebimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Report\FormReportTransacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Report\FormReportTransacao.Designer.cs">
+      <DependentUpon>FormReportTransacao.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\FormAluno.resx">
+      <DependentUpon>FormAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormCalculadoraMensalidade.resx">
+      <DependentUpon>FormCalculadoraMensalidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormConfiguracaoEmail.resx">
+      <DependentUpon>FormConfiguracaoEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormContaAPagar.resx">
+      <DependentUpon>FormContaAPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormContaAReceber.resx">
+      <DependentUpon>FormContaAReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormContrato.resx">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormFavorecido.resx">
+      <DependentUpon>FormFavorecido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormInstituicaoEnsino.resx">
+      <DependentUpon>FormInstituicaoEnsino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormPagamento.resx">
+      <DependentUpon>FormPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormRecebimento.resx">
+      <DependentUpon>FormRecebimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportContaAPagar.resx">
+      <DependentUpon>FormReportContaAPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportContaAReceber.resx">
+      <DependentUpon>FormReportContaAReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportAluno.resx">
+      <DependentUpon>FormReportAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportContrato.resx">
+      <DependentUpon>FormReportContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportPagamento.resx">
+      <DependentUpon>FormReportPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportRecebimento.resx">
+      <DependentUpon>FormReportRecebimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\FormReportTransacao.resx">
+      <DependentUpon>FormReportTransacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Report\ReportAluno.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportContaAPagar.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportContaAReceber.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportContrato.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportPagamento.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportRecebimento.rdlc" />
+    <EmbeddedResource Include="View\Report\ReportTransacao.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Aluno.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.CalculaMensalidade.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Configuracao.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.ContaAPagar.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.ContaAReceber.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Contrato.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Favorecido.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.InstituicaoEnsino.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Pagamento.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Recebimento.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.ContaAPagar.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.ContaAReceber.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.Contrato.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.Pagamento.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.Recebimento.datasource" />
+    <None Include="Properties\DataSources\FinanceiroBus.Model.Report.Transacao.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
